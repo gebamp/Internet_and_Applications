@@ -116,7 +116,7 @@ export default class ui extends Component {
 	renderTable() {
 		if (this.state.authors.length !== 0) {
 			return (
-				<table id='students'>
+				<table id='authors'>
 					<tbody>
 						<tr>{this.renderTableHeader()}</tr>
 						{this.renderTableData()}
